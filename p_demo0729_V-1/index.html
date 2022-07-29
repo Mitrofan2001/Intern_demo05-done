@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- import file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="./js/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <!-- header fixed-top 下方需設空間以防article滑進去-->
+    <div class="header-space"></div>
+    <!--phone_fixed_btn-->
+    <div class="phone__btn d-block d-md-none">
+        <a href="">
+            <img src="./img/fixed_btn.jpg" alt="">
+        </a>
+    </div>
+    <!-- header -->
+    <header class="fixed-top bg-white">
+        <div class="container-md header__container">
+            <div class="navbar navbar-expand-lg navbar-light">
+                <div class="logo ms-3 ms-lg-0">
+                    <a href="#" class="navbar-brand"><img class="w-100" src="./img/header_navbar/富邦人壽logo.png"
+                            alt=""></a>
+                </div>
+
+                <button class="navbar-toggler toggler-btn border-0 shadow-none py-lg-0 me-3 me-lg-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse navbar__list" id="navmenu">
+                    <ul class="navbar-nav text-center nav">
+                        <li
+                            class="nav-item  nav-itemlink px-2 py-lg-0 py-2 navbar__list__item navbar__list__item--border">
+                            <a href="#" id="js-gift" class="nav-link mt-lg-1" target="_blank">得獎名單</a>
+                        </li>
+
+                        <li
+                            class="nav-item nav-itemlink px-2 py-lg-0 py-2 mx-2 navbar__list__item  navbar__list__item--border">
+                            <a href="#" class="nav-link mt-lg-1">Running King</a>
+                        </li>
+
+                        <li
+                            class="nav-item nav-itemlink px-2 py-lg-0 py-2 mx-2 navbar__list__item navbar__list__item--border">
+                            <a href="#" class="nav-link mt-lg-1" target="_blank">APP介紹</a>
+                        </li>
+ 
+                        <li class="nav-item nav-itemlink px-2 py-lg-0 py-2 mx-2">
+                            <a href="#" class="nav-link mt-lg-1" target="_blank">Q&A</a>
+                        </li>
+
+                        <li class="nav-item nav-itemlink mt-0 mt-lg-1 py-2 mx-2">
+                            <a href="" class="nav__item__line mt-2 mt-lg-0"></a>
+                            <a href="" class="nav__item__fb ms-2 mt-2 mt-lg-0"></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <!-- master vision -->
+    <div class="master_vision">
+        <div class="container d-flex justify-content-between" style="width:980px">
+            <img class="kv_dis" src="./img/master_text.png" alt="">
+            <img class="kv_dis" src="./img/master_rulepng.png" alt="">
+        </div>
+
+        <img class="d-none d-md-block d-lg-none w-100" src="./img/kv_tablet.jpg" alt="">
+
+        <img class="d-block d-md-none w-100" src="./img/master_m.jpg" alt="">
+    </div>
+
+    <!--main_content-->
+    <div class="main_content">
+        <div class="container d-block">
+            <div class="content_bg mx-auto">
+                <div class="content__title text-center mb-4">
+                    <h2 class="content__title__text">滿團達標抽5,000元</h2>
+                </div>
+
+                <div class="content__list ">
+                    <div class="content__list__item p-3 d-flex mb-2">
+                        <div class="ps-lg-4 pe-2 d-flex align-items-center">
+                            <img class="list__img" src="./img/Group 2106.png" alt="">
+                        </div>
+                        自行組隊或加入放個鹿APP內同名活動「一起揪團抗疫趣」
+                    </div>
+
+                    <div class="content__list__item p-3 d-flex mb-2">
+                        <div class="ps-lg-4 pe-2 d-flex align-items-center">
+                            <img class="list__img" src="./img/Group 2107.png" alt="">
+                        </div>
+                        隊伍需滿5人且不得有隊員成績為0
+                    </div>
+
+                    <div class="content__list__item p-3 d-flex mb-2 ">
+                        <div class="ps-lg-4 pe-2 d-flex align-items-center">
+                            <img class="list__img" src="./img/Group 2108.png" alt="">
+                        </div>
+                        全隊步數總計達100萬
+                    </div>
+                </div>
+
+                <div class="content_imgs pt-4">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-md-flex align-items-center">
+                            <i class="mx-auto pt-0 pt-md-4 d-block">
+                                <img class="" src="./img/icon_gift_m.svg" alt="">
+                            </i>
+                        </div>
+
+                        <div class="col col-md-6 pt-4">
+                            <img class="mx-auto d-block" src="./img/Group-2685.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <a class="btn_icon_ios d-none d-md-block" href="">
+            <img class="w-100 border-0" src="./img/sidebar_icon/gloogleplay_circle_btn.png" alt="">
+        </a>
+
+        <a class="btn_icon_and d-none d-md-block" href="">
+            <img class="w-100 border-0" src="./img/sidebar_icon/appstore_circle_btn.png" alt="">
+        </a>
+
+        <a class="go-top" href="">
+            <img class="go-top_img" src="./img/sidebar_icon/gotop_icon.png" alt="">
+            TOP
+        </a>
+    </div>
+
+    <!-- Precautions -->
+    <div class="precautions position-relative">
+        <div class="precautione__content">
+
+            <div class="container">
+                <div id="js-notice__btn" class="precaution__title__click mx-auto text-center">
+                    <span class="notice_span">注意事項</span>
+                </div>
+
+                <div id="js-notice__content" class="pt-3">
+                    <ol>
+                        <li>請於參加『懶癌退散!!一起揪團抗疫趣』活動(以下簡稱本活動)前詳閱注意事項。參加者參與本活動時，即表示同意本活動之注意事項，並充分知悉與同意下列事項：
+                            <br>
+                            (一)富邦人壽(以下簡稱本公司)得因本活動之需要，依個人資料保護法相關規定，於參加者同意之期間內，以電子檔或紙本形式於我國境內蒐集、處理、利用其個人資料。參加者可自由選擇是否提供完整個人資訊，惟若資訊不完整者，將無法參加本活動。
+                            <br>
+                            (二)本公司蒐集參加者個人資料之特定目的如下：為參加者參與本活動之聯繫、得獎公告、後續處理、聯絡、紀錄、客戶諮詢及推廣等行銷目的作為使用用途。
+                            <br>
+                            (三)本公司將主動以電子郵件通知活動得獎人，活動得獎人須於2022/07/01-07/31在「Fun
+                            group放個鹿APP」(以下簡稱APP)，達成所有條件：(1)加入APP上之官方賽事：『懶癌退散!!一起揪團抗疫趣』
+                            、(2)組隊滿５人、(3)隊伍中無人步數為０且總計走100萬步，即可抽『迪卡儂1,000元禮物卡五張』(中獎隊伍內成員一人一張)，共計抽出5隊幸運得獎隊伍。有關Fun
+                            Points獎勵辦法，則依APP公告為準；APP商城公告之商品數量有限，換完為止，如遇缺貨情形，本公司恕不受理預約或遞補兌換，如有補貨，亦不另行公告。
+                            <br>
+                            (四)若活動得獎人因任何因素：如轉贈資格等以致喪失本活動贈品之兌換資格，本公司恕不補發，敬請留意。
+                            <br>
+                            (五)本公司將於活動結束3個月內在「Fun
+                            group放個鹿APP」網頁公告得獎名單，並主動以電子郵件通知活動中獎人，請活動中獎人於指定回覆資料截止日期前，提供真實姓名、身分證字號、地址、電話…等個人資料以完成相關領獎作業〈填妥領獎收據及附上得獎人身分證正反面影本寄回本公司〉，逾期回覆或未回覆者視為棄權，本公司不遞補名額。
+                            <br>
+                            (六)本公司將參加者的個人資料為利用之期間、方式、地區及對象：期間：i.參加者同意之期間內。ii.依相關法令所定或因執行業務所必須之保存期間或依個別契約就資料之保存所定之保存年限(以期限最長者為準)。地區：個人資料將用於臺、澎、金、馬地區。對象：富邦人壽保險股份有限公司及贈品發放方。方式：符合個人資料保護相關法令以自動化機器或其他非自動化之利用方式。
+                            <br>
+                            (七) 參加本活動者可電洽本公司免費客服專線(0809-000-550)，針對其個人資料行使請求答覆查詢、提供閱覽、製給複製本、更正、補充、停止蒐集、處理、利用或刪除之權利，亦可至本公司官方網站法令公告「<a
+                                class="precautione__content__link" href="">個人資料保護告知聲明</a> 」進一步瞭解詳細資訊。
+                            <br>
+                            (八) 蒐集個人資料之類別：真實姓名、地址、電話等個人資料。
+                        </li>
+
+                        <li>參加活動者必須遵守活動規範及其他有關規定，如未遵循者，本公司得拒絕其參與或取消其得獎資格，並對於任何破壞本活動行為保留相關權利。</li>
+
+                        <li>本活動獎項屬於機會中獎，依中華民國所得稅法及各類所得扣繳率標準規定，機會中獎金額超過新台幣20,010元(含)者，得獎者需先行繳納10%機會中獎所得稅款(不足1元部分捨去)，非中華民國境內居住者，無論金額大小皆需先行繳納20%機會中獎所得稅款，詳細規定請參閱<a
+                                class="precautione__content__link"
+                                href="">財政部稅務入口網</a>。無論扣繳與否，均需列入活動得獎人當年度之個人機會中獎所得，並由本公司開立扣繳憑單予活動得獎人，活動得獎人需依規定填寫並繳交相關資料方可領獎。如不願意配合者，則視為自動放棄得獎資格。
+                        </li>
+
+                        <li>本活動所提供之獎品以實物為主，不得折換現金、兌換其他商品或優惠，亦不得將本活動得獎資格轉讓或轉售予他人，本公司保有更換同值獎品之權利。獎品相關使用辦法請依照兌換內容說明為準。一旦活動得獎人領取獎品後，若有遺失或被竊，本公司不發給任何證明或補償。
+                        </li>
+
+                        <li>本公司非獎品製造者或提供者，與各項獎品或服務之製造或提供廠商無任何代理或合夥關係，且本活動獎品之保固期限均依廠商出廠時實際提供者為準。得獎者如因本活動各項獎品、服務或保固發生任何爭議，概與本公司無關。
+                        </li>
+
+                        <li>若活動得獎人未於時間內回覆得獎人資料或提供資料有誤，導致無法通知得獎或獎品無法寄送者，視同活動得獎人放棄權利並自負其責，本公司不另行通知。</li>
+
+                        <li>本活動獎品之寄送地址僅限台灣地區(包括金門、馬祖、澎湖)，如獎品寄送地點為前述地區以外者，本公司得取消其得獎資格。</li>
+
+                        <li>本活動如遇其他不可抗力之事由者，得順延之；本公司保有取消、終止、修改或暫停、審核民眾參加本活動資格及解釋本活動及獎品等細節之權利，其他相關事宜悉公布於本活動網頁，並依其相關規定辦理。
+                        </li>
+
+                        <li>本公司有權檢視得獎情況是否有人為操作之行為，對於以偽造、詐欺或其他不正當之方式意圖兌領之參加者，本公司有權撤銷其得獎資格或拒絕其參與本活動。</li>
+
+                        <li>若各活動獎項遇停產、缺貨或其他無法排除之情事，將以其他等值商品替代，恕不另行公告。</li>
+
+                        <li>請留意序號類獎品之兌換效期，並於有效期限內使用完畢，逾期作廢，恕不另行補發。序號類獎品一經發送，無論實際使用與否，將依據此領獎簽收單開立所得扣繳憑單。</li>
+
+                        <li>領獎簽收單填妥後請掛號寄至：「 110 台北市信義區東興路 71號 6樓 放個鹿專案小組收」。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fun_vision_bg">
+        <!-- Add_Fun_group -->
+        <div class="add_fun_group container ">
+            <!--記得取消高度-->
+            <div class="grayline"></div>
+
+            <div class="add_fun__title">現在就加入Fun group放個鹿</div>
+
+            <div class="add_fun__subtitle">免費下載，超乎你想像的社群互動!</div>
+
+            <div class="about_container mx-auto">
+                <div class="add_fun__app"><img class="add_fun__app__img" src="./img/appdownload_icon.png" alt=""></div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="common_share mt-3">
+                            <a href="" class="add_fun__download__app">
+                                <img class="add_fun__download__app__img img-fluid" src="./img/Group 1978.png" alt="">
+                                <p class="mt-1">Version 1.0.11</p>
+                            </a>
+                            <a href="" class="add_fun__download__app ">
+                                <img class="add_fun__download__app__img img-fluid" src="./img/Group 1979.png" alt="">
+                                <p class="mt-1">Version 1.0.15</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- update-vision -->
+        <div class="update_vision">
+            <div class="container px-3">
+                Demo0729-V
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="">
+        <div class="container footer-container ">
+            <div class="footer-link">
+                <ul class="pb-0">
+                    <li><a class="" id="first" href="">常見問題</a></li>
+                    <li><a class="" href="">交易機制安全說明</a></li>
+                    <li><a class="" href="">法令公告</a></li>
+                    <li><a class="" href="">隱私權聲明</a></li>
+                    <li><a class="" href="">網路投保服務專線：0809-010-658</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="about mb-1">建議瀏覽器版本：IE10、Chrome 4.0、Safari 5、FireFox 3.0 以上版本</p>
+        <p class="about mb-0">© Fubon Life Insurance Co. Ltd. All Rights Reserved</p>
+    </footer>
+
+    <div class="gift_page">
+        <div class="page_content mx-auto text-center">
+            <div id="js-close_page">
+                <span aria-hidden="true">×</span>
+            </div>
+
+            <div class="gift_title p-3">得獎名單</div>
+
+            <div class="gift_list d-flex justify-content-between p-2">
+                <div class="gift_item px-3 py-4">5,000元迪卡儂禮物卡</div>
+
+                <div class="gift_time px-3 py-4">活動結束3個月內公告</div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        //gift_page
+        $('.gift_page').hide();
+
+        $('#js-gift').click(function (e) {
+            $('body').css("overflow", "hidden")
+            $('.gift_page').show();
+            return false;
+        });
+
+        $('#js-close_page').click(function (e) {
+            $('body').css("overflow", "visible")
+            $('.gift_page').hide();
+            return false;
+        });
+
+
+
+        $('.go-top').click(function () {
+            $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+
+            return false;
+        });
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 400) {
+                $('.sidebar').fadeIn();
+            } else {
+                $(".sidebar").fadeOut()
+            }
+        })
+
+
+        $('#js-invite_content').hide();
+
+        $('#js-invite_btn').click(function () {
+            $("#js-invite_content").slideToggle("slow")
+
+            $('.invite_main_pic2').toggleClass('invite_main_pic2_act');//旋轉展開鍵
+        });
+
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+            }
+        })
+
+        $('#js-notice__content').hide();
+
+        $('#js-notice__btn').click(function () {
+            $("#js-notice__content").slideToggle("slow")
+
+            $('.notice_span').toggleClass('notice_span_act');//旋轉三角形
+        });
+
+    </script>
+</body>
