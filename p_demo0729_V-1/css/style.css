@@ -189,7 +189,7 @@ header:after {
 
 /*------master_vision-------------------------------------------------*/
 .master_vision {
-    background-image: url('/img/master_bg.jpg');
+    background-image: url('../img/master_bg.jpg');
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@ header:after {
 
 /*----main_content--------------------------------------------------------------*/
 .main_content {
-    background-image: url('/img/Group\ 2695.png');
+    background-image: url('../img/Group\ 2695.png');
     padding-top: 58px;
     padding-bottom: 90px;
 }
@@ -283,7 +283,7 @@ header:after {
 
     height: 60px;
     line-height: 60px;
-    background-image: url('/img/sec1_title_bg.svg');
+    background-image: url('../img/sec1_title_bg.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -292,7 +292,7 @@ header:after {
 
 @media screen and (max-width:768px) {
     .content__title__text {
-        background-image: url('/img/Path\ 2923.svg');
+        background-image: url('../img/Path\ 2923.svg');
     }
 
 
